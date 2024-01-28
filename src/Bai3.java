@@ -11,5 +11,6 @@ public class Bai3 {
         System.out.println("Tinh trang: "+ (conSach?"Con sach": "Het sach"));
         System.out.println("Ma kho: "+ maKho);
         // chi them vao thoi
+        //khong can them dau
     }
 }

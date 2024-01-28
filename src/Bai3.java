@@ -10,5 +10,6 @@ public class Bai3 {
         System.out.println("Gia thanh: "+giaThanh);
         System.out.println("Tinh trang: "+ (conSach?"Con sach": "Het sach"));
         System.out.println("Ma kho: "+ maKho);
+        // chi them vao thoi
     }
 }

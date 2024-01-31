@@ -8,10 +8,15 @@ public class Bai13_bt {
         System.out.print("Nhap r: ");
         r = sc.nextDouble();
 
-        chuVi = Math.round(2*Math.PI*r * 100.0)/100.0;
-        dienTich = Math.round(Math.PI * Math.pow(r,2)*100.0)/100.0;
+        chuVi = 2*Math.PI*r;
+        dienTich = Math.PI * Math.pow(r,2);
+
 
         System.out.println("Chu vi: "+ chuVi);
+        System.out.println("Chu vi = "+ Math.round(chuVi));
+        System.out.println("Chu vi = "+ Math.round(chuVi*100.0)/100.0);
         System.out.println("Dien tich: "+dienTich);
+        System.out.println("Dien tich = " + Math.round(dienTich));
+        System.out.println("Dien tich = " + Math.round(dienTich*100.0)/100.0);
     }
 }

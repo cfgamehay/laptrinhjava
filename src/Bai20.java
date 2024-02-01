@@ -10,6 +10,7 @@ public class Bai20 {
                 System.out.println(i+ " x " +j+ " = "+(i*j) );
             }
             System.out.println();
+
         }
     }
 }

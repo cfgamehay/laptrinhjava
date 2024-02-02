@@ -1,4 +1,5 @@
 public class HoaDonCafe {
+    //OOP 2
     private String tenCafe;
     private double giaTien;
     private double khoiLuong;

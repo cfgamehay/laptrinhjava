@@ -71,8 +71,8 @@ public class Date {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof MyDate4 myDate4)) return false;
-        return getDay() == myDate4.getDay() && getMonth() == myDate4.getMonth() && getYear() == myDate4.getYear();
+        if (!(o instanceof Date date)) return false;
+        return getDay() == date.getDay() && getMonth() == date.getMonth() && getYear() == date.getYear();
     }
 
     @Override

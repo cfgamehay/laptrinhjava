@@ -16,5 +16,9 @@ public class Animal {
     {
         System.out.println("Eating...");
     }
+    public void MakeSound()
+    {
+        System.out.println("Making sound...");
+    }
 
 }

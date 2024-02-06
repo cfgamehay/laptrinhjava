@@ -6,4 +6,14 @@ public class Cat extends Animal{
     {
         System.out.println("Meoooow...");
     }
+
+    @Override
+    public void Eat() {
+        System.out.println("The cat is eating...");
+    }
+
+    @Override
+    public void MakeSound() {
+        System.out.println("The cat is making noise...");
+    }
 }
